@@ -1,0 +1,6 @@
+.deleteitem {
+	cursor: pointer;
+	color: red;
+	text-decoration:none;
+	font-size: 2em;
+}
