@@ -259,19 +259,24 @@ It’s set up to work with the following connection parameters:
 * Server: 'localhost'
 * Password: mike%
 * Database Name: uoc
+<br><br>
 
-- Client Login:
-* User: mgoyeneche@uoc.edu
-* Password: asdf
+* Client Login:
+    * User: mgoyeneche@uoc.edu
+    * Password: asdf
 
-- Admin User Login:
-* User: admin@uoc.edu
-* Password: admin
+
+* Admin User Login:
+    * User: admin@uoc.edu
+    * Password: admin
+
 
 Extra Functionality
 * Product Search:
   Located at the top of the navigation bar, it works as follows: When you type, products that match the name will appear. For example, if you type the letter "c," several products containing the "c" in their name will appear.
 In reality, these containers (divs) are already there but hidden. When typing, a key press event is triggered (with each key press), and I check if any of the products (by looping through all of them) contain the typed string—meaning if the typed substring is found in the name of any product. Of course, the product list is dynamically loaded.
+
+![search](https://github.com/user-attachments/assets/a280754b-cc9d-4c35-b688-9367bcad93ea)
 
 * Category List:
 Displayed in the top navigation menu and footer, loaded dynamically.
