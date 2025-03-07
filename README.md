@@ -260,8 +260,8 @@ It’s set up to work with the following connection parameters:
 * Server: 'localhost'
 * Password: mike%
 * Database Name: uoc
-<br><br>
 
+#### Login
 * Client Login:
     * User: mgoyeneche@uoc.edu
     * Password: asdf
