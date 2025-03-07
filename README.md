@@ -251,6 +251,7 @@ This page is accessible from the top user menu for logged-in users. A user with 
 
 ## Appendix
 ### Project Setup
+#### DB
 The database used by the project is called "uoc" and is in the database export file.
 The connection configuration file is located at /config/db.class.php.
 It’s set up to work with the following connection parameters:
